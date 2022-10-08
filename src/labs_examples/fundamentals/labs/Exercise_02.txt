@@ -32,3 +32,13 @@ Cloning repository from Github
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+    mkdir git_practice
+    cd git_practice
+    git init
+    touch README.md
+    git add README.md
+    git commit -m "initial commit"
+    git remote add origin git@github.com:sessionsdev/git_practice.git
+    git branch -M main
+    git push -u origin main

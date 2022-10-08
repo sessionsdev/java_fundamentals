@@ -16,7 +16,22 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
+        boolean bool = true;
+        double myDouble = 2.9;
+        long myLong = 2L;
+        char c = 'c';
+        byte b = 1;
+        short s = 4;
+        float f = 4.5F;
 
+        System.out.println("boolean bool is: " + bool);
+        System.out.println("double is: " + myDouble);
+        System.out.println("long is: " + myLong);
+        System.out.println("char is: " + c);
+        System.out.println("byte is: " + b);
+        System.out.println("short is: " + s);
+        System.out.println("float is: " + f);
+        System.out.println("int i is: " + i);
     }
 
 }

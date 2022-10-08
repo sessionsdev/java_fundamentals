@@ -18,8 +18,19 @@ Fundamentals Exercise 1: CLI
          b. Use $ cat print contents of file
          c. Use $ grep to search for a word inside file
 
-Example Output:
-    1. cd ~/Documents/CodingNomads/
-    2. mkdir Terminal_testing
-    3. //...
+     My Output:
+
+     cd coding-nomads
+     mkdir Terminal_testing
+     cd Terminal_testing && touch text.txt text2.txt text3.txt
+     ls
+     mkdir terminal_testing_2
+     cp text.txt ./terminal_testing_2
+     cd terminal_testing_2
+     ls
+     cd ..
+     cp text1.txt ./terminal_testing_2
+     cp text2.txt ./terminal_testing_2
+     rm text.txt
+     rm -r -f terminal_testing_2
 
